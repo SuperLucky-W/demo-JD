@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.sx-wrap{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.yhq{
+    width: 100%;
+    height: 30px;
+    background: #e3e4e5;
+    border-bottom: solid 1px #ddd;
+}
+.yhq a{
+    text-decoration: none;
+}
+.yhq-header{
+    width: 1190px;
+    margin: 0 auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.yhq-header .yhq-fl{
+display: flex;
+}
+.yhq-header .yhq-fr{
+    display: flex;
+}
+.yhq-header .yhq-fl li{
+    font-size: 12px;
+}
+.yhq-header .yhq-fr li{
+    font-size: 12px;
+}
+.yhq-header .yhq-fl .fore1{
+    padding: 0 2px;
+}
+.yhq-header .yhq-fl .fore1 i{
+    font-size: 16px;
+}
+.yhq-header .yhq-fl .fore2{
+   
+    position: relative;
+  
+}
+.yhq-header .yhq-fl .fore2 .fore-2-a{
+    padding: 0 25px 0 10px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 101;
+}
+.yhq-header .yhq-fl .fore2 i{
+    font-size: 16px;
+    color: #999;
+}
+
+
+.yhq-header .yhq-fl .fore2 .hn-xianshi{
+    width: 301px;
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    z-index: 100;
+    top: 29px;
+    left: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: none;
+}
+.yhq-header .yhq-fl .fore2:hover .hn-xianshi{
+    display: block;
+}
+.yhq-header .yhq-fl .fore2:hover{
+    height: 32px;
+}
+.yhq-header .yhq-fl .fore2:hover .fore-2-a{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+.yhq-header .yhq-fl .fore2 .hn-block{
+    display: block;
+}
+.hn-xianshi .shengfen ul{
+    /* display: flex;
+    flex-wrap: wrap; */
+    height: 196px;
+}
+.hn-xianshi .shengfen ul li{
+    width: 60px;
+    height: 28px;
+    /* padding: 2px 0; */
+    float: left;
+}
+.hn-xianshi .shengfen ul .shengfenli{
+    background-color: rgba(0, 0, 0, .1);
+    color: #f30213;
+}
+.hn-xianshi .shengfen ul li a{
+    padding: 0 8px;
+    height: 24px;
+    /* width: 24px; */
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+  
+}
+.hn-xianshi .shengfen ul li .yhq-shengfen{
+    background-color: #f30213;
+    color: #fff;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .diqu{
+      margin: 10px 0 10px 10px;
+      color: #999;
+      line-height: 24px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .diqu p{
+    margin: 9px 0;
+    line-height: 24px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .diqu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .diqu ul li{
+    width: 145px;
+    height: 26px;
+    line-height: 26px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .waiguo {
+    margin: 10px 0 10px 10px;
+    color: #999;
+    line-height: 24px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .waiguo  p{
+    margin: 9px 0;
+    line-height: 24px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .waiguo ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .waiguo ul li{
+    width: 145px;
+    height: 26px;
+    background: url(../../img/waiguo.png) no-repeat center center;
+    background-position: -36px 10px;
+}
+.yhq-header .yhq-fl .fore2 .hn-xianshi .waiguo ul li a{
+    padding-left: 25px;
+}
+.yhq-header .yhq-fr .fore3{
+    display: flex;
+}
+.yhq-header .yhq-fr .fore3 a:nth-child(2){
+    color: #f30213;
+}
+.yhq-header .yhq-fr .fore4{
+    padding: 0 8px;
+}
+.yhq-header .yhq-fr .fore5{
+    position: relative;
+
+}
+.yhq-header .yhq-fr .fore5 .fore-5-a{
+    width: 49px;
+    padding: 0 25px 0 8px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid transparent;
+}
+.yhq-header .yhq-fr .fore5:hover .fore-5-a{
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+.yhq-header .yhq-fr .fore5:hover .fore-5-none{
+    display: block;
+}
+.yhq-header .yhq-fr .fore5 .fore-5-none{
+    position: absolute;
+    z-index: 99;
+    top: 30px;
+    left: 0;
+    width: 280px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    display: none;
+}
+.yhq-header .yhq-fr .fore5 .fore-5-none .fore-5-none-top ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 15px;
+}
+.yhq-header .yhq-fr .fore5 .fore-5-none .fore-5-none-top ul li{
+    width: 126px;
+    height: 24px;
+}
+.yhq-header .yhq-fr .fore5 .fore-5-none .fore-5-none-bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 15px;
+    border-top: 1px solid #f1f1f1;
+}
+.yhq-header .yhq-fr .fore5 .fore-5-none .fore-5-none-bottom ul li{
+    width: 126px;
+    height: 24px;
+}
+i.iconfont.icon-xiajiantou{
+    right: 0;
+}
+.yhq-header .yhq-fr .fore5 i{
+    position: absolute;
+    top: 50%;
+    color: #999;
+    transform: translate(0,-50%);
+}
+
+.yhq-header .yhq-fr .fore6{
+    padding: 0 8px;
+}
+.yhq-header .yhq-fr .fore7{
+   
+    position: relative;
+}
+.yhq-header .yhq-fr .fore7 .fore-7-a{
+    width: 49px;
+    padding: 0 25px 0 8px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 1000;
+}
+.yhq-header .yhq-fr .fore7 .fore-7-none{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    line-height: 24px;
+    width: 140px;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    z-index: 100;
+    display: none;
+}
+.yhq-header .yhq-fr .fore7:hover .fore-7-a{
+    background-color: #Fff;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+.yhq-header .yhq-fr .fore7:hover .fore-7-none{
+    display: block;
+}
+.yhq-header .yhq-fr .fore7 .fore-7-none>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yhq-header .yhq-fr .fore7 .fore-7-none>ul li{
+    width: 56px;
+    height: 24px;
+    white-space: nowrap;
+}
+.yhq-header .yhq-fr .fore7 i{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: #999;
+}
+.yhq-header .yhq-fr .fore8{
+
+    position: relative;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-a{
+    width: 49px;
+    padding: 0 25px 0 8px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 110;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    width: 170px;
+    padding: 10px 0;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    z-index: 100;
+    display: none;
+}
+.yhq-header .yhq-fr .fore8:hover .fore-8-a{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+.yhq-header .yhq-fr .fore8:hover .fore-8-none{
+    display: block;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-top ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-top ul li{
+    width: 70px;
+    padding-left: 15px;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-top p{
+    padding-left: 15px;
+    font-weight: 700;
+    color: #666;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-bottom ul li{
+    width: 70px;
+    padding-left: 15px;
+}
+.yhq-header .yhq-fr .fore8 .fore-8-none .fore-8-a-bottom p{
+    padding-left: 15px;
+    font-weight: 700;
+    color: #666;
+}
+.yhq-header .yhq-fr .fore8 i{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: #999;
+}
+.yhq-header .yhq-fr .fore9{
+ 
+    position: relative;
+}
+.yhq-header .yhq-fr .fore9 .fore-9-a{
+    width: 49px;
+    padding: 0 25px 0 8px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 101;
+}
+.yhq-header .yhq-fr .fore9:hover .fore-9-none{
+    display: block;
+}
+.yhq-header .yhq-fr .fore9 .fore-9-none{
+    position: absolute;
+    top: 30px;
+    right: -69px;
+    width: 1188px;
+    padding: 15px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    z-index: 100;
+    display: none;
+}
+.yhq-header .yhq-fr .fore9:hover .fore-9-a{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.yhq-header .yhq-fr .fore9 .fore-9-none div p{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #666;
+}
+.yhq-header .yhq-fr .fore9 .fore-9-none div {
+    float: left;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+    width: 255px;
+}
+.yhq-header .yhq-fr .fore9 .fore-9-none .fore-9-1{
+    width: 340px;
+    border-left: none;
+}
+.yhq-header .yhq-fr .fore9 .fore-9-none div ul{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 24px;
+}
+
+.yhq-header .yhq-fr .fore9 .fore-9-none div ul li{
+    width: 85px;
+    white-space: nowrap;
+    height: 24px;
+}
+.yhq-header .yhq-fr .fore9 i{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: #999;
+}
+.yhq-header .yhq-fr .fore10{
+    padding: 0 8px;
+}
+.yhq-header .yhq-fr .xian{
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+    margin: 11px 5px 0;
+}
+.yhq-header .yhq-fl li a,.yhq-header .yhq-fr li a{
+    color: #999;
+    line-height: 30px;
+}
+.fore3{
+    display: flex;
+    position: relative;
+}
+.fore3 .userinfo{
+    position: relative;
+    z-index: 51;
+    padding: 0 8px;
+    padding-right: 52px;
+    border: 1px solid transparent;
+}
+.fore3:hover  .userinfo{
+    height: 32px;
+    border-bottom-color:#fff ;
+    background-color: #fff;
+}
+.fore3:hover .info_list{
+    display: flex;
+}
+.fore3 a{
+    display: block;
+width: 70px;
+white-space: nowrap;
+overflow: hidden;
+text-align: right;
+}
+.fore3 .userinfo span{
+    position: absolute;
+right: 9px;
+top: 6px;
+display: block;
+width: 38px;
+height: 16px;
+background: #d7d4cb url(../../img/user-plus-status.png) no-repeat 0 -68px;
+}
+.fore3 .info_list{
+    display: none;
+    padding: 10px 0 10px 15px;
+    background-color: #fff;
+    width: 265px;
+    height: 60px;
+    position: absolute;
+    z-index: 50;
+    border: 1px solid #e3e4e5;
+    top: 30px;
+    left: -1px;
+}
+.fore3 .info_list img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.fore3 .info_list .u-plus{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #999;
+}
+.fore3 .info_list span{
+    margin-bottom: 10px;
+    display: block;
+    width: 38px;
+    height: 16px;
+    background: #d7d4cb url(../../img/user-plus-status.png) no-repeat 0 -68px;
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/shop_cart.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2147622_uxyete2ik7j.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/shop_cart.js"></script>
+    <link rel="stylesheet" href="../css/public/公共头部.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--顶部导航-->
+    {{include 'comon/header.html'}}
+    <!--logo模块-->
+    <div class="cart_head2_wrap">
+        <div class="cart_head2">
+            <div class="head2_left">
+                <img src="../img/shop_cart_logo.png" alt="">
+                <b><img src="../img/cart-icon.png" alt=""></b>
+            </div>
+            <div class="head2_right">
+                    <input type="text">
+                    <button>搜索</button>
+            </div>
+        </div>
+    </div>
+    <!--购物车模块-->
+    <div class="container">
+        <div class="title">
+            <input type="checkbox" class="allbtn">全选
+            <span class="goods_info">商品信息</span>
+            <ul class="nav">
+                <li>单价</li>
+                <li>数量</li>
+                <li>金额</li>
+                <li>操作</li>
+            </ul>
+        </div>
+        <div class="shop_1 shop">
+            <p>
+                <input type="checkbox" class="shopBtn"><span>店铺：碧提福服饰</span>
+                <b></b>
+            </p>
+            <div class="content">
+                <div class="content_head"></div>
+                <input type="checkbox" class="goodsBtn">
+                <div class="img_info">
+                    <img src="../img/taobao_1.jpg" alt="">
+                    <div class="info">
+                        <p class="info_text">Nike耐克裤子男新款AJ飞人运动长裤女跑步透气休闲收口束脚裤卫裤</p>
+                        <p>
+                            <img src="../img/taobao_2.png" alt="">
+                            <img src="../img/taobao_3.png" alt="">
+                            <img src="../img/taobao_4.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="size">
+                    <p>颜色：灰色</p>
+                    <p>尺码：XL</p>
+                </div>
+                <div class="price">
+                    <del>￥268.00</del>
+                    <p>￥<span class="danjia">101.00</span></p>
+                    <p class="p_img">优惠<i class="iconfont icon-xiajiantou"></i></p>
+                </div>
+                <div class="num">
+                    <div class="num_con">
+                        <span class="minus">-</span><input type="text" class="numipt" value="1"><span
+                            class="plus">+</span>
+                    </div>
+                </div>
+                <div class="money">
+                    ￥<h2 class="pri">101.00</h2>
+                </div>
+                <div class="more">
+                    <p>移入收藏夹</p>
+                    <p class="delete">删除</p>
+                </div>
+            </div>
+            <div class="content">
+                <input type="checkbox" class="goodsBtn">
+                <div class="img_info">
+                    <img src="../img/shop_good4.jpg" alt="">
+                    <div class="info">
+                        <p class="info_text">雅迪（yadea）新款米迪时尚龟王60V可选石墨烯电池豪华电动车轻便代步踏板车电瓶车男女代步车电摩</p>
+                        <p>
+                            <img src="../img/taobao_2.png" alt="">
+                            <img src="../img/taobao_3.png" alt="">
+                            <img src="../img/taobao_4.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="size">
+                    <p>颜色：灰色</p>
+                    <p>尺码：XL</p>
+                </div>
+                <div class="price">
+                    <del>￥268.00</del>
+                    <p>￥<span class="danjia">200.00</span></p>
+                    <p class="p_img">优惠<i class="iconfont icon-xiajiantou"></i></p>
+                </div>
+                <div class="num">
+                    <div class="num_con">
+                        <span class="minus">-</span><input type="text" class="numipt" value="1"><span
+                            class="plus">+</span>
+                    </div>
+                </div>
+                <div class="money">
+                    ￥<h2 class="pri">200.00</h2>
+                </div>
+                <div class="more">
+                    <p>移入收藏夹</p>
+                    <p class="delete">删除</p>
+                </div>
+            </div>
+        </div>
+        <div class="shop_2 shop">
+            <p>
+                <input type="checkbox" class="shopBtn"><span>店铺：碧提福服饰</span>
+                <b></b>
+            </p>
+            <div class="content">
+                <input type="checkbox" class="goodsBtn">
+                <div class="img_info">
+                    <img src="../img/shop_good3.jpg" alt="">
+                    <div class="info">
+                        <p class="info_text">雅迪（yadea）新款米迪时尚龟王60V可选石墨烯电池豪华电动车轻便代步踏板车电瓶车男女代步车电摩 都市版/白色</p>
+                        <p>
+                            <img src="../img/taobao_2.png" alt="">
+                            <img src="../img/taobao_3.png" alt="">
+                            <img src="../img/taobao_4.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="size">
+                    <p>颜色：灰色</p>
+                    <p>尺码：XL</p>
+                </div>
+                <div class="price">
+                    <del>￥268.00</del>
+                    <p>￥<span class="danjia">148.00</span></p>
+                    <p class="p_img">优惠<i class="iconfont icon-xiajiantou"></i></p>
+                </div>
+                <div class="num">
+                    <div class="num_con">
+                        <span class="minus">-</span><input type="text" class="numipt" value="1"><span
+                            class="plus">+</span>
+                    </div>
+                </div>
+                <div class="money">
+                    ￥<h2 class="pri">148.00</h2>
+                </div>
+                <div class="more">
+                    <p>移入收藏夹</p>
+                    <p class="delete">删除</p>
+                </div>
+            </div>
+        </div>
+        <div class="shop_3 shop">
+            <p>
+                <input type="checkbox" class="shopBtn"><span>店铺：碧提福服饰</span>
+                <b></b>
+            </p>
+            <div class="content">
+                <input type="checkbox" class="goodsBtn">
+                <div class="img_info">
+                    <img src="../img/shop_good2.jpg" alt="">
+                    <div class="info">
+                        <p class="info_text">雅迪新款小巧电动车欧逸48V可提锂电LED天使眼大灯电动自行车 男女通用款 新塔夫绸白</p>
+                        <p>
+                            <img src="../img/taobao_2.png" alt="">
+                            <img src="../img/taobao_3.png" alt="">
+                            <img src="../img/taobao_4.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="size">
+                    <p>颜色：灰色</p>
+                    <p>尺码：XL</p>
+                </div>
+                <div class="price">
+                    <del>￥268.00</del>
+                    <p>￥<span class="danjia">148.00</span></p>
+                    <p class="p_img">优惠<i class="iconfont icon-xiajiantou"></i></p>
+                </div>
+                <div class="num">
+                    <div class="num_con">
+                        <span class="minus">-</span><input type="text" class="numipt" value="1"><span
+                            class="plus">+</span>
+                    </div>
+                </div>
+                <div class="money">
+                    ￥<h2 class="pri">148.00</h2>
+                </div>
+                <div class="more">
+                    <p>移入收藏夹</p>
+                    <p class="delete">删除</p>
+                </div>
+            </div>
+        </div>
+        <div class="shop_4 shop">
+            <p>
+                <input type="checkbox" class="shopBtn"><span>店铺：碧提福服饰</span>
+                <b></b>
+            </p>
+            <div class="content">
+                <input type="checkbox" class="goodsBtn">
+                <div class="img_info">
+                    <img src="../img/cart_goods1.jpg" alt="">
+                    <div class="info">
+                        <p class="info_text">新日（Sunra）电动车成人电瓶车新国标电动自行车时尚男女代步车48V锂电池踏板车XC1 锂电/经典版/星雨亮白</p>
+                        <p>
+                            <img src="../img/taobao_2.png" alt="">
+                            <img src="../img/taobao_3.png" alt="">
+                            <img src="../img/taobao_4.jpg" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="size">
+                    <p>颜色：灰色</p>
+                    <p>尺码：XL</p>
+                </div>
+                <div class="price">
+                    <del>￥268.00</del>
+                    <p>￥<span class="danjia">256.00</span></p>
+                    <p class="p_img">优惠<i class="iconfont icon-xiajiantou"></i></p>
+                </div>
+                <div class="num">
+                    <div class="num_con">
+                        <span class="minus">-</span><input type="text" class="numipt" value="1"><span
+                            class="plus">+</span>
+                    </div>
+                </div>
+                <div class="money">
+                    <h2 class="pri">256.00</h2>
+                </div>
+                <div class="more">
+                    <p>移入收藏夹</p>
+                    <p class="delete">删除</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--合计-->
+    <div class="sum">
+        <div class="sum_left">
+            <input type="checkbox"><span>全选</span>
+            <span>删除选择商品</span>
+            <span>移动关注</span>
+            <span>清理购物车</span>
+        </div>
+        <div class="sum_right">
+            <div class="amount-num">
+                已选择<span class="goods_sum">1</span>件商品<i class="iconfont icon-xiajiantou"></i></div>
+            <div class="amount-price">
+                总价:
+                <span>
+                    <em>￥<strong class="sum_price">0</strong></em><img src="../img/price-tips.png" alt="">
+                </span>
+            </div>
+            <div class="pay">去结算</div>
+        </div>
+    </div>
+    <!--推荐-->
+    <div class="sug_wrap">
+        <div class="sug">
+            <div class="top">
+                <div class="left">
+                    <span class="left1">猜你喜欢</span>
+                    <span class="left2">随手购</span>
+                </div>
+                <ul class="right r1">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="right r2">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="left1_content" >
+            <ul class="sug_content">
+              <li>
+                  <img src="../img/sug_1.jpg" alt="">
+                  <p>A-COLD-WALL* ACW袜子男士棉质黑色带标识时尚个性男士袜子 E-18Q4-SO01-BK 均码</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+              </li>
+              <li>
+                <img src="../img/sug_2.jpg" alt="">
+                <p>缤肌（Pinkypinky）二裂酵母臻护六件套 护肤品套装礼盒 补水男女士学生 超值6件套</p>
+                <p>￥355.00</p>
+                <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+              </li>
+              <li>
+                <img src="../img/sug_3.jpg" alt="">
+                <p>Camel/骆驼官方店男鞋2020秋季新品百搭潮流男士英伦风日常质感休闲马丁靴 黑色 41</p>
+                <p>￥355.00</p>
+                <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+              </li>
+              <li>
+                <img src="../img/sug_4.jpg" alt="">
+                <p>联想拯救者电竞手机Pro 12GB+256GB 骁龙865 Plus 双液冷散热 144Hz电竞屏 双模5G游戏手机 炫蓝冰刃</p>
+                <p>￥355.00</p>
+                <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+              </li>
+            </ul>
+            <ul class="sug_content">
+                <li>
+                    <img src="../img/sug_3.jpg" alt="">
+                    <p>A-COLD-WALL* ACW袜子男士棉质黑色带标识时尚个性男士袜子 E-18Q4-SO01-BK 均码</p>
+                    <p>￥355.00</p>
+                    <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_1.jpg" alt="">
+                  <p>缤肌（Pinkypinky）二裂酵母臻护六件套 护肤品套装礼盒 补水男女士学生 超值6件套</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_2.jpg" alt="">
+                  <p>Camel/骆驼官方店男鞋2020秋季新品百搭潮流男士英伦风日常质感休闲马丁靴 黑色 41</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_4.jpg" alt="">
+                  <p>联想拯救者电竞手机Pro 12GB+256GB 骁龙865 Plus 双液冷散热 144Hz电竞屏 双模5G游戏手机 炫蓝冰刃</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+              </ul>
+              <ul class="sug_content">
+                <li>
+                    <img src="../img/sug_2.jpg" alt="">
+                    <p>A-COLD-WALL* ACW袜子男士棉质黑色带标识时尚个性男士袜子 E-18Q4-SO01-BK 均码</p>
+                    <p>￥355.00</p>
+                    <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_4.jpg" alt="">
+                  <p>缤肌（Pinkypinky）二裂酵母臻护六件套 护肤品套装礼盒 补水男女士学生 超值6件套</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_3.jpg" alt="">
+                  <p>Camel/骆驼官方店男鞋2020秋季新品百搭潮流男士英伦风日常质感休闲马丁靴 黑色 41</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+                <li>
+                  <img src="../img/sug_1.jpg" alt="">
+                  <p>联想拯救者电竞手机Pro 12GB+256GB 骁龙865 Plus 双液冷散热 144Hz电竞屏 双模5G游戏手机 炫蓝冰刃</p>
+                  <p>￥355.00</p>
+                  <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                </li>
+              </ul>
+            </div>
+            <div class="left2_content" >
+                <ul class="sug_content">
+                    <li>
+                        <img src="../img/sug_7.jpg" alt="">
+                        <p>A-COLD-WALL* ACW袜子男士棉质黑色带标识时尚个性男士袜子 E-18Q4-SO01-BK 均码</p>
+                        <p>￥355.00</p>
+                        <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_5.jpg" alt="">
+                      <p>缤肌（Pinkypinky）二裂酵母臻护六件套 护肤品套装礼盒 补水男女士学生 超值6件套</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_6.jpg" alt="">
+                      <p>Camel/骆驼官方店男鞋2020秋季新品百搭潮流男士英伦风日常质感休闲马丁靴 黑色 41</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_8.jpg" alt="">
+                      <p>联想拯救者电竞手机Pro 12GB+256GB 骁龙865 Plus 双液冷散热 144Hz电竞屏 双模5G游戏手机 炫蓝冰刃</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                  </ul>
+                  <ul class="sug_content">
+                    <li>
+                        <img src="../img/sug_5.jpg" alt="">
+                        <p>A-COLD-WALL* ACW袜子男士棉质黑色带标识时尚个性男士袜子 E-18Q4-SO01-BK 均码</p>
+                        <p>￥355.00</p>
+                        <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_6.jpg" alt="">
+                      <p>缤肌（Pinkypinky）二裂酵母臻护六件套 护肤品套装礼盒 补水男女士学生 超值6件套</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_7.jpg" alt="">
+                      <p>Camel/骆驼官方店男鞋2020秋季新品百搭潮流男士英伦风日常质感休闲马丁靴 黑色 41</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                    <li>
+                      <img src="../img/sug_8.jpg" alt="">
+                      <p>联想拯救者电竞手机Pro 12GB+256GB 骁龙865 Plus 双液冷散热 144Hz电竞屏 双模5G游戏手机 炫蓝冰刃</p>
+                      <p>￥355.00</p>
+                      <a href="javascript:;"><i class="iconfont icon-gouwuche"></i>加入购物车</a>
+                    </li>
+                  </ul>
+            </div>
+        <div class="pre"><</div>
+        <div class="next">></div>
+        </div>
+    </div>
+    </div>
+    <!--底部-->
+    <footer>
+        <div class="wrap">
+			<ul class="foot-service">
+				<li>
+					<span></span>
+					<b>品类齐全，轻松购物</b>
+				</li>
+				<li>
+					<span></span>
+					<b>品类齐全，轻松购物</b>
+				</li>
+				<li>
+					<span></span>
+					<b>品类齐全，轻松购物</b>
+				</li>
+				<li>
+					<span></span>
+					<b>品类齐全，轻松购物</b>
+				</li>
+			</ul>
+            <div class="foot-item">
+                <ul>
+                    <li>购物指南</li>
+                    <li>购物流程</li>
+                    <li>生活旅行</li>
+                    <li>常见问题</li>
+                    <li>大家电</li>
+                    <li>联系客服</li>
+                </ul>
+                <ul>
+                    <li>配送方式</li>
+                    <li>上门自提</li>
+                    <li>211送达</li>
+                    <li>配送服务查询</li>
+                    <li>配送费用收取标准</li>
+                    <li>海外配送</li>
+                </ul>
+                <ul>
+                    <li>支付方式</li>
+                    <li>在线收取</li>
+                    <li>分期付款</li>
+                    <li>公司转账</li>
+                </ul>
+                <ul>
+                    <li>售后服务</li>
+                    <li>售后政策</li>
+                    <li>价格保护</li>
+                    <li>退款说明</li>
+                    <li>返修/退换货</li>
+                    <li>取消订单</li>
+                </ul>
+                <ul>
+                    <li>特色服务</li>
+                    <li>夺宝岛</li>
+                    <li>DIV装机</li>
+                    <li>延保服务</li>
+                    <li>京东E卡</li>
+                    <li>京东通信</li>
+                    <li>京鱼座智能</li>
+                </ul>
+            </div>
+            <div class="foot-info">
+                <ul>
+                    <li>关于我们</li><span>|</span>
+                    <li>联系我们</li><span>|</span>
+                    <li>联系客服</li><span>|</span>
+                    <li>合作招商</li><span>|</span>
+                    <li>商家帮助</li><span>|</span>
+                    <li>营销中心</li><span>|</span>
+                    <li>手机京东</li><span>|</span>
+                    <li>友情链接</li><span>|</span>
+                    <li>销售联盟</li><span>|</span>
+                    <li>京东社区</li><span>|</span>
+                    <li>风险监测</li><span>|</span>
+                    <li>隐私政策</li><span>|</span>
+                    <li>京东公益</li><span>|</span>
+                    <li>English Site</li><span>|</span>
+                    <li>Media & IR</li>
+                </ul>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <li>京公网安备 11000002000088号</li><span>|</span>
+                    <li>京ICP证070359号</li><span>|</span>
+                    <li>互联网药品信息服务资格证编号(京)-经营性-2014-0008</li><span>|</span>
+                    <li>新出发京零 字第大120007号</li>
+                </ul>
+                <ul>
+                    <li>互联网出版许可证编号新出网证(京)字150号</li><span>|</span>
+                    <li>出版物经营许可证</li><span>|</span>
+                    <li>网络文化经营许可证京网文[2014]2148-348号</li><span>|</span>
+                    <li>违法和不良信息举报电话：4006561155</li>
+                </ul>
+                <ul>
+                    <li>Copyright © 2004 - </li><span>|</span>
+                    <li>消费者维权热线：4006067733 经营证照</li><span>|</span>
+                    <li>(京)网械平台备字(2018)第00003号</li><span>|</span>
+                    <li>经营证照</li>
+                </ul>
+                <ul class="foot-city">
+                    <li><i></i>Global Site</li><span>|</span>
+                    <li><i></i>Сайт России</li><span>|</span>
+                    <li><i></i>Global Site</li><span>|</span>
+                    <li><i></i>Global Site</li><span>|</span>
+                    <li><i></i>Global Site</li>
+                </ul>
+                <ul class="foot-bottom">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--右侧固定-->
+    <ul class="fixed">
+        <li>我的关注</li>
+        <li class="fix1">
+            <i></i>
+        <div class="focus">常购商品</div></li>
+        <li  class="fix2"><i></i><div class="jd_cart">京东卡</div></li>
+    </ul>
+</body>
+</html>

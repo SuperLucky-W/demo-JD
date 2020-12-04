@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.ppsg-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+.ppsg-header{
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+.ppsg-header .nr{
+  display: flex;
+  justify-content: space-between;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto 10px;
+}
+.ppsg-logo{
+    width: 232px;
+    margin-top: 22.5px;
+    cursor: pointer;
+}
+.ppsg-logo img{
+    display: block;
+    width: 232px;
+    height: 60px;
+    
+}
+.ppsg-logo .logo-img{
+    width: 144px;
+    height: 37px;
+    margin: 0 auto;
+}
+.ppsg-header .nr .right{
+    display: flex;
+    width: 728px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.ppsg-header .ppsg-header-fixed{
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 83px;
+    box-shadow: rgb(78, 78, 78) 0px 5px 20px -8px;
+}
+.ppsg-header .nr .right>ul{
+    display: flex;
+    text-align: center;
+}
+.ppsg-header .nr .right>ul>li{
+    width: 100px;
+    height: 38px;
+    margin-right: 18px;
+    cursor: pointer;
+    margin: 36px 18px 36px 0 ;
+    /* line-height: 110px; */
+}
+.ppsg-header .nr .right>ul>li p{
+    font-size: 16px;
+    width: 64px;
+    height: 19px;
+    letter-spacing: 0;
+    margin: 0 auto;
+    color: #605e65;
+}
+.ppsg-header .nr .right>ul>li .active{
+    color: #f6193b;
+}
+.ppsg-header .nr .right>ul>li .qidong{
+    color: #f6193b;
+}
+.ppsg-header .nr .right>ul>li .active::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #f6193b;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.ppsg-header .nr .right>ul>li .qidong::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #f6193b;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.ppsg-header .nr .right .gengduo{
+    height: 38px;
+    width: 100px;
+    margin: 36px 18px 36px 0 ;
+    text-align: center;
+    position: relative;
+    color: #605e65;
+}
+
+.ppsg-header .nr .right .gengduo .gd-none{
+position: absolute;
+overflow: hidden;
+top: 36px;  
+border-radius: 2px;
+background: #fff;
+color: #605e65;
+height: 0;
+transition: all .1s;
+}
+.ppsg-header .nr .right .gengduo:hover .gd-none{
+    height: 352px;
+    padding-bottom: 10px;
+    border: 1px solid #e0e0e0;
+}
+.ppsg-header .nr .right .gengduo .gd-none>ul>li{
+    width: 92px;
+    height: 34px;
+    line-height: 34px;
+    background: #fff;
+}
+.ppsg-header .nr .right .gengduo .gd-none>ul>li>p{
+    width: 54px;
+    height: 32px;
+    font-size: 12px;
+    margin: 0 auto;
+    border-bottom: 2px dotted #e0e0e0;
+}
+.ppsg-header .nr .right .gengduo .gd-none>ul>li>p:hover{
+    border-bottom:2px solid #f6193b ;
+    color: #f6193b;
+}
+.ppsg-header .nr .gouwuche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 80px;
+    margin: 30px 20px 0;
+        font-size: 12px;
+    color: #605e65;
+    text-align: center;
+    cursor: pointer;
+}
+.ppsg-header .nr .gouwuche:hover{
+    border: 1px solid #f6193b;
+    color: #f6193b;
+}
+.ppsg-header .nr .gouwuche:hover span{
+    background-image: url(../img/ppsg-gwc-h.png);
+}
+.ppsg-header .nr .gouwuche>p{
+    height: 36px;
+    line-height: 36px;
+    
+}
+.ppsg-header .nr .gouwuche>span{
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(../img/ppsg-wuc.png) no-repeat center;
+    background-size: 16px 16px;
+    
+}
+.ppsg-content-1{
+    width: 100%;
+}
+.ppsg-banner{
+    width: 100%;
+    height: 416px;
+}
+.ppsg-banner img{
+    display:block;
+    width: 100%;
+    height: 416px;
+}
+.ppsg-content-1 .heng-g{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+}
+.ppsg-content-1 .ppsg-jrsx{
+    width: 100%;
+    background-color: #f6f6f6;
+
+}
+.ppsg-content-1 .ppsg-jrsx .title{
+    width: 320px;
+    height: 60px;
+    background: linear-gradient(to right, #fb366d, #f6193b);
+    background-color: #fb366d;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 3px 4px 14px #ffacc0;
+}
+.ppsg-content-1 .ppsg-jrsx .title .text{
+    font-size: 28px;
+    color: #fff;
+
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.ppsg-content-1 .ppsg-jrsx .title .text span{
+    font-size: 14px;
+    line-height: 60px;
+        padding-left: 10px;
+    box-sizing: border-box;
+}
+.ppsg-content-1 .ppsg-jrsx .title .text .sd{
+    display: block;
+    width: 17px;
+    height: 26px;
+    background: url(../img/ppsg-sd.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+.ppsg-sp{
+    background-color: #fff;
+    margin: 0 auto 30px;
+    display: flex;
+}
+.ppsg-sp .left{
+    position: relative;
+    width: 500px;
+    height: 280px;
+    cursor: pointer;
+}
+.ppsg-sp .left .yushi{
+    width: 500px;
+    height: 280px;
+    overflow: hidden;
+}
+.ppsg-sp .left .yushi img{
+    width: 750px;
+    height: 360px;
+    transform: translateX(-107px);
+}
+.ppsg-sp .left .youhui{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 180px;
+    height: 220px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ppsg-sp .left .youhui .daojishi{
+    position: relative;
+    font-size: 16px;
+    color: #4a4a4a;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f4f4f4;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+.ppsg-sp .left .youhui .djs{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/daojishi.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    vertical-align: baseline;
+}
+.ppsg-sp .left .youhui img{
+    width: 120px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.ppsg-sp .left .youhui p:nth-of-type(1) {
+    font-size: 16px;
+    color: #3e3939;
+  box-sizing: border-box;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    width: 150px;
+    margin: 5px auto 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.ppsg-sp .left .youhui p:nth-of-type(2){
+    font-size: 18px;
+    color: #4a4a4a;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+    
+}
+.ppsg-sp .right{
+    padding-top: 15px;
+    position: relative;
+    width: 700px;
+}
+.ppsg-sp .right>ul{
+    display: flex;
+}
+.ppsg-sp .right>ul>li{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ppsg-sp .right>ul>li>.list{
+    position: relative;
+    width: 220px;
+    height: 255px;
+}
+.ppsg-sp .right>ul>li>.list .r-text{
+    width: 100%;
+    font-size: 14px;
+    color: #f6193b;
+    margin-top: 15px;
+    text-align: center;
+}
+.ppsg-sp .right>ul>li>.list .r-text del{
+color: #c8c8c8;
+}
+.ppsg-content-1 .ppsg-jrsx .title-bottom{
+    width: 320px;
+    height: 60px;
+    background: linear-gradient(to right, #fb366d, #f6193b);
+    background-color: #fb366d;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 3px 4px 14px #ffacc0;
+}
+.ppsg-content-1 .ppsg-jrsx .title-bottom .text{
+    font-size: 28px;
+    color: #fff;
+
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.ppsg-content-1 .ppsg-jrsx .title-bottom .text span{
+    font-size: 14px;
+    line-height: 60px;
+        padding-left: 10px;
+    box-sizing: border-box;
+}
+.ppsg-content-1 .ppsg-jrsx .title-bottom .text .sd{
+    display: block;
+    width: 17px;
+    height: 26px;
+    background: url(../img/ppsg-sd.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+.ppsg-content-1 .ppsg-jrsx .ppsg-sp-bottom{
+    display: flex;
+}
+.ppsg-content-1 .ppsg-jrsx .ppsg-sp-bottom .left{
+    width: 590px;
+    height: 408px;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.ppsg-content-1 .ppsg-jrsx .ppsg-sp-bottom .left .ikbc{
+    width: 590px;
+    height: 283px;  
+    
+}
+.ppsg-content-1 .ppsg-jrsx .ppsg-sp-bottom .left .ikbc .ikbc-big{
+    display: block;
+    width: 590px;
+    height: 283px;
+}
+.ppsg-content-1 .ppsg-jrsx .ppsg-sp-bottom .right{
+    width: 590px;
+    height: 408px;
+    margin-bottom: 20px;
+}
+.ppsg-sp-bottom .left .ikbc-zi{
+    position: absolute;
+    width: 220px;
+    height: 180px;
+    left: 20px;
+    top: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.ppsg-sp-bottom  .left .ikbc-zi .daojishi{
+    position: relative;
+    font-size: 16px;
+    color: #4a4a4a;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f4f4f4;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ppsg-sp-bottom .left .ikbc-zi .djs{
+    /* display: inline-block; */
+    margin-right: 3px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/daojishi.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    vertical-align: baseline;
+}
+.ppsg-sp-bottom  .left .ikbc-zi .daojishi .js-djs span.time{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #4a4a4a;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0 4px;
+}
+.ppsg-sp-bottom .left .ikbc-zi .ikbc-sm{
+    display: block;
+    width: 120px;
+    height: 60px;
+    margin: 13px auto;
+    background-color: #fff;
+}
+.ppsg-sp-bottom .left .ikbc-zi p{
+    width: 100%;
+    font-size: 16px;
+    color: #3e3939;
+    text-align: center;
+    margin: 20px auto 0;
+}
+.ppsg-sp-bottom  .left .jianpan{
+    width: 590px;
+    height: 125px;
+    background-color: #fff;
+}
+.ppsg-sp-bottom  .left .jianpan ul{
+    width: 590px;
+    height: 125px;
+    background-color: #fff;
+    display: flex;
+}
+.ppsg-sp-bottom  .left .jianpan ul li{
+    width: 125px;
+    height: 125px;
+    margin-right: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.ppsg-sp-bottom  .left .jianpan ul li>img{
+    width: 125px;
+    height: 125px;
+}
+.ppsg-sp-bottom  .left .jianpan ul li p{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 25px;
+    top: 100px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #f6193b;
+    line-height: 25px;
+  
+}
+
+

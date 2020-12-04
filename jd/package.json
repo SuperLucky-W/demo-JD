@@ -1,0 +1,26 @@
+{
+  "name": "jd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "art-template": "^4.13.2",
+    "koa": "^2.13.0",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.1",
+    "multer": "^1.4.2",
+    "session": "^0.1.0"
+  }
+}

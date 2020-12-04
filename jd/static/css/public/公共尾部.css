@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.yhq-wrap{
+    width: 1190px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+.yhq-footer{
+    background: #eaeaea;
+    padding-bottom: 18px;
+}
+.yhq-footer .top{
+    display: flex;
+    padding-left: 65px;
+    position: relative;
+    height: 42px;
+    padding: 30px 0 30px 55px;
+}
+.yhq-footer .top li{
+    width:280px;
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-indent: 46px;
+    color: #444;
+ 
+}
+.yhq-footer .top li i{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 42px;
+    background: url(../../img/ico_service.png) no-repeat;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.yhq-footer .top li:nth-child(2) i{
+    background-position: 0 -43px;
+}
+.yhq-footer .top li:nth-child(3) i{
+    background-position: 0 -86px;
+}
+.yhq-footer .top li:nth-child(4) i{
+    background-position: 0 -129px;
+}
+.yhq-footer .footer-nav{
+    width: 100%;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+.yhq-footer .footer-nav .content{
+    display: flex;
+    padding: 20px 0 20px 55px;
+    margin-right: -140px;
+}
+
+.yhq-footer .footer-nav .content dl{
+    width: 250px;
+    line-height: 22px;
+}
+.yhq-footer .footer-nav .content dl dt{
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #777;
+    height: 22px;
+}
+.yhq-footer .footer-nav .content dl dd a{
+color: #666;
+}
+.yhq-footer .footer-nav .content dl dd{
+    font-size: 12px;
+    height: 22px;
+}
+.yhq-footer .footer-bottom{
+    padding-bottom: 30px;
+    background: #eaeaea;
+}
+.yhq-footer .footer-bottom .yhq-diyi p{
+    text-align: center;
+    font-size: 0px;
+}
+.yhq-footer .footer-bottom .yhq-diyi p a{
+font-size: 12px;
+color: #666;
+}
+.yhq-footer .footer-bottom .yhq-diyi p span{
+    margin: 0 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+.yhq-footer .footer-bottom .yhq-dier{
+    padding: 10px 0;
+ 
+}
+.yhq-footer .footer-bottom .yhq-dier p {
+    text-align: center;
+    font-size: 0px;
+       line-height: 22px;
+}
+.yhq-footer .footer-bottom .yhq-dier p a{
+    font-size: 12px;
+color: #999;
+}
+.yhq-footer .footer-bottom .yhq-dier p span{
+    font-size: 12px;
+color: #999;
+}
+.yhq-footer .footer-bottom .yhq-dier p .shuxian{
+    margin: 0 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+.yhq-footer .footer-bottom .yhq-dier p i{
+    display: inline-block;
+    width: 15px;
+height: 12px;
+background: url(../../img/waiguo.png) no-repeat center center;
+background-position: 0 0;
+}
+.yhq-footer .footer-bottom .yhq-disan p {
+    text-align: center;
+}
+.yhq-footer .footer-bottom .yhq-disan p a{
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    background: url(../../img/new_footer.png) no-repeat ;
+    background-position: -104px 0;
+}
+.yhq-footer .footer-bottom .yhq-disan p a:nth-child(2){
+    background-position: 0 -33px;
+}
+.yhq-footer .footer-bottom .yhq-disan p a:nth-child(3){
+    background-position: -104px -33px;
+}
+.yhq-footer .footer-bottom .yhq-disan p a:nth-child(4){
+    background-position: 0 -66px;
+}
+.yhq-footer .footer-bottom .yhq-disan p a:nth-child(5){
+    background-position: -104px -66px;
+}
